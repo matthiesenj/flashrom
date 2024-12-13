@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Memory_Flash_29F800)(type Legacy)(uri ${KIPRJMOD}/Memory_Flash_29F800.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Memory_Flash_29F800")(type "KiCad")(uri "${KIPRJMOD}/Memory_Flash_29F800.kicad_sym")(options "")(descr ""))
 )
