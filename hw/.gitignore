@@ -1,3 +1,4 @@
 flashrom.kicad_prl
 flashrom-backups/
 *cache
+*.bak
