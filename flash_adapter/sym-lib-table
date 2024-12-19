@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Memory_Flash_29F800")(type "KiCad")(uri "C:/Users/Bigmama/repos/matthiesenj/flashrom/hw/Memory_Flash_29F800.kicad_sym")(options "")(descr ""))
+)
