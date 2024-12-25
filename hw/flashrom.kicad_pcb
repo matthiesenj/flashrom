@@ -44,6 +44,7 @@
     )
     (pad_to_mask_clearance 0)
     (allow_soldermask_bridges_in_footprints yes)
+    (aux_axis_origin 50.8 50.8)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
@@ -1376,8 +1377,8 @@
   (gr_text "~{WE}\nA18\nGND" (at 63.5 55.245 90) (layer "F.SilkS") (tstamp 87d5eab6-6694-409c-b94a-6a1332eabe42)
     (effects (font (size 1.7 1.5) (thickness 0.18)) (justify left bottom))
   )
-  (gr_text "27C800\nFlashrom" (at 58.42 71.755) (layer "F.SilkS") (tstamp 952b3457-635d-4fff-8800-d5d19a8cc084)
-    (effects (font (size 2 1.8) (thickness 0.3)) (justify bottom))
+  (gr_text "github.com/\nmatthiesenj/\nflashrom\n\nV0.9" (at 53.34 72.39) (layer "F.SilkS") (tstamp 952b3457-635d-4fff-8800-d5d19a8cc084)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
   (segment (start 58.661 97.282) (end 58.674 97.295) (width 0.25) (layer "F.Cu") (net 1) (tstamp 018bb491-a8c1-4c91-826b-943fc2c5bdac))
