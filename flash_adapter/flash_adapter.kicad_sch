@@ -1951,7 +1951,7 @@
     (property "Value" "Kickstart_Socket_A4000" (at 45.72 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket" (at 60.96 151.13 0)
+    (property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" (at 60.96 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://amigawiki.de/dnl/schematics/A4000_Rb.pdf" (at 59.69 115.57 0)
