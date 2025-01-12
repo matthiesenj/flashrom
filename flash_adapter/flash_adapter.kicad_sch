@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Flash adapter for TL866")
+    (date "2025-01-12")
+    (rev "2")
+    (comment 1 "Original by github.com/matthiesenj")
+    (comment 2 "Requires TL866 TSOP48/SOP44 adapter")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x04_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
