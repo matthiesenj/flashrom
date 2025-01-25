@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "27C400 compatible programmable ROM")
+    (comment 1 "By Jesper Matthiesen")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
@@ -1491,7 +1496,7 @@
     (uuid fdcc36b6-0489-4e96-af10-d60a04cb7a18)
   )
 
-  (text "A500 rev 5 (and 3?) has the highest address bus line\n(ROM A17) connected to ROM socket pin 31. This means\nthe byte/word selection pin on EPROMs isn't driven\npermanently high.\n"
+  (text "A500 rev 5 (and older?) has the highest address line\n(ROM A17) connected to ROM socket pin 31 instead of pin 1.\nThis means the byte/word selection pin on EPROMs isn't driven\npermanently high. \n"
     (at 21.59 30.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a5b8a67-43e4-4f03-93d5-28e2ab98ad57)
