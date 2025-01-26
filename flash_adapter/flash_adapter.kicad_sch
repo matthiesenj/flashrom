@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Flash adapter for TL866")
-    (date "2025-01-12")
-    (rev "2")
+    (title "FlashROM programming adapter for TL866")
+    (date "2025-01-26")
+    (rev "3")
     (comment 1 "Original by github.com/matthiesenj")
     (comment 2 "Requires TL866 TSOP48/SOP44 adapter")
   )
